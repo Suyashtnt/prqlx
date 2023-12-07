@@ -10,6 +10,11 @@ PRQL is an amazing DSL for sql, but it doesn't have native support in sqlx. This
 
 ## Usage
 
+```sh
+cargo add prqlx
+cargo add sqlx # requires sqlx to be installed by you so you can configure it correctly
+```
+
 ```rs
 use prqlx::{query, query_as};
 

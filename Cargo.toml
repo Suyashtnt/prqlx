@@ -1,6 +1,6 @@
 [package]
 name = "prqlx"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 description = "A procedural macro for using PRQL in sqlx"
@@ -15,7 +15,6 @@ authors = ["Suyash <suyashtnt@gmail.com>"]
 [dependencies]
 prql-compiler = "0.10.1"
 quote = "1.0.33"
-sqlx = { version = "0.7.3", default-features = false, features = ["macros"] }
 syn = { version = "2.0.39", default-features = false, features = ["proc-macro", "quote", "parsing"] } 
 
 [dev-dependencies]
