@@ -7,7 +7,7 @@ description = "A procedural macro for using PRQL in sqlx"
 repository = "https://github.com/Suyashtnt/prqlx"
 readme = "README.md"
 keywords = ["sqlx", "prql", "sql", "query", "macro"]
-categories = ["database", "sql", "query", "macro"]
+categories = ["database"]
 authors = ["Suyash <suyashtnt@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
