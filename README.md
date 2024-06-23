@@ -4,7 +4,7 @@ Combining the query language of [PRQL](https://prql-lang.org) with the macro pow
 
 PRQL is an amazing DSL for sql, but it doesn't have native support in sqlx. This crate bridges the gap by compiling prql _in the rust macro itself_ before it's sent to sqlx (and your database). This means you can use the prql syntax with:
 
-- All supported sqlx database
+- All supported sqlx databases
 - Nice compiler errors
 - Fully typed rust
 

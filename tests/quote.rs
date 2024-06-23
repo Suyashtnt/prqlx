@@ -17,7 +17,7 @@ async fn setup_db() -> SqlitePool {
         .await
         .unwrap();
 
-    sqlx::query("INSERT OR IGNORE INTO users (id, name) VALUES (123, 'Jhon Doe');")
+    sqlx::query("INSERT OR IGNORE INTO users (id, name) VALUES (123, 'John Doe');")
         .execute(&pool)
         .await
         .unwrap();
